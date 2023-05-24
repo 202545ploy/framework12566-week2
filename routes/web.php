@@ -18,6 +18,6 @@ Route::get('/', function () {
 });
 
 //http://127.0.0.1:8000/test
-Route::get('/', function () {
+Route::get('test', function () {
     return 'welcome world,Laravel10';
 });
